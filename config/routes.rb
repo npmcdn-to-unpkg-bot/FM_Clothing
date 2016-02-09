@@ -1,5 +1,5 @@
 Rails.application.routes.draw do
-  get 'landing_pages/home'
+  root 'landing_pages#home'
 
   get 'landing_pages/contact'
 

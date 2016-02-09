@@ -1,0 +1,48 @@
+@import "bootstrap-sprockets";
+@import "bootstrap";
+$charcoal: #323232;
+$tinted-white: #f8f8f8;
+@import "landing_pages";
+
+body {
+	background-color: white;
+}
+
+.navbar-brand {
+	font-size: 3em;
+}
+
+.navbar-default .navbar-brand {
+	color: $charcoal;
+}
+.navbar-default .navbar-brand:hover {
+	color: $charcoal;
+}
+.navbar.navbar-default {
+	margin-top: 30px;
+	margin-bottom: 60px;
+	border: none;
+	border-radius: 0;
+
+	background-color: transparent;
+}
+
+.navbar-default .navbar-toggle {
+	border-color: $charcoal;
+	border-radius: 0px;
+}
+.navbar-default .navbar-toggle:hover {
+	background-color: $charcoal;
+}
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+	background-color: transparent;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+	background-color: $charcoal;
+}
+
+ul.nav.navbar-nav li>a {
+	font-weight: 300;
+	color: $charcoal;
+}
